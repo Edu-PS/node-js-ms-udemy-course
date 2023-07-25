@@ -26,5 +26,13 @@ console.log('Array copiado despues de modificar arr3[0] = 55: ',arr4)
 console.log('Mantiene su valor original (11) ya que se copio con el spread operator ...')
 console.log()
 
+let age = 33;
+var obj1 = {name: 'Carlos', age: 55, color: 'Rojo'}
+console.log(age)
+let car, color
+var obj2 = {...obj1}
+console.log(obj2.age)
+
+
 
 
