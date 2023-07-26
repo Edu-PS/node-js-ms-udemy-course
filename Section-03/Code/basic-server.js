@@ -8,6 +8,9 @@ const http = require('http'); // CommonJS
 // }
 const reqFunction = (request, response) => {
     console.log(request);
+
+    // Esta linea se utiliza para apagar el servidor. Esta comentada porque se quiere que siempre este corriendo.
+    // process.exit();
 }
 
 // CREANDO EL SERVIDOR y proporcionando la funcion que se ejecutara cada vez que se reciba una solicitud
